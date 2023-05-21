@@ -1,0 +1,21 @@
+.purpel {
+    color: #7f56cc;
+}
+
+.text-gray {
+    /* color: #434242; */
+}
+
+.vr-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vr-desc {
+    position: relative;
+    top: 86px;
+    /* color: #434242; */
+    width: 150px;
+    font-size: 14px;
+}
