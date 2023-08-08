@@ -1,21 +1,10 @@
-.purpel {
-    color: #7f56cc;
+#spanSmall {
+    font-size: 2rem;
 }
 
-.text-gray {
-    /* color: #434242; */
-}
-
-.vr-title {
-    position: relative;
-    top: 75px;
-    width: 150px;
-}
-
-.vr-desc {
-    position: relative;
-    top: 86px;
-    /* color: #434242; */
-    width: 150px;
-    font-size: 14px;
+#h2-main {
+    font-family: 'Radley', serif;
+    margin: 5rem 5rem;
+    color: var(--primary-2-);
+    font-size: 3rem;
 }

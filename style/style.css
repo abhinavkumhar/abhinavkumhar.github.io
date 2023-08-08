@@ -4,19 +4,24 @@
     box-sizing: border-box;
 }
 
+
 /* Colors */
+
 :root {
-    --primary-: #07172b;
-    --primary-2-: #072448;
+    --primary-: #F4F1E8;
+    --primary-2-: #9B4819;
     --light-text-: #7f56cc;
     --secondary-: #54d2d2;
     --txt-gray-: #434242;
     --smooth-: #ffcb00;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--primary-);
-    color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -41,15 +46,16 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
+    font-family: 'Radley', serif;
+    font-size: 1.5rem;
 }
 
 nav ul li a:hover {
     color: var(--light-text-);
-    font-size: 1.01rem;
 }
 
 #element {
-    color: var(--light-text-);
+    color: var(--primary-2-);
 }
 
 main hr {
@@ -59,77 +65,48 @@ main hr {
     margin: 60px 84px;
 }
 
-.left {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .firstSection {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    margin: 10rem 0;
+    font-size: 4rem;
+    font-family: 'Radley', serif;
+    justify-content: center;
     align-items: center;
-    margin: 80px 0;
 }
 
-.firstSection>div {
-    width: 35%;
+.firstSection img {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
-.leftSection {
-    font-size: 2.5rem;
+.firstSection div span {
+    color: var(--primary-2-);
 }
 
-.rightSection img {
-    width: 80%;
-    margin: 30px 0;
+.secondSection div img {
+    width: 100%;
 }
 
-.secondSection {
-    max-width: 80vw;
-    margin: auto;
-    height: 80vh;
+.thirdSection {
+    margin-top: 7%;
 }
 
-.secondSection h1{
-    font-size: 1.9rem;
-}
-
-.secondSection .hr-line {
-    background: #ffffff;
-    width: 76vw;
-    height: 2px;
-    margin: 56px 0;
+.aboutContent {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem;
 }
 
-.secondSection .vr-line {
-    height: 93px;
-    width: 1px;
-    background-color: #ffffff;
-    margin: 0 110px;
+.aboutContent p {
+    font-size: 1.5rem;
+    padding-bottom: 12rem;
 }
 
-.img-top {
-    width: 23px;
-    position: relative;
-    top: -32px;
-    left: -9px;
-}
-
-footer {
-    background-color: var(--primary-2-);
-}
-
-.footer {
-    display: flex;
-    padding: 23px 122px;
-    justify-content: space-evenly;
-}
-
-.footer ul {
-    list-style: none;
-}
-
-.footer > div {
-    width: 223px;
+.aboutContent div img {
+    width: 60%;
+    height: 60%;
+    margin-left: 10rem;
 }
