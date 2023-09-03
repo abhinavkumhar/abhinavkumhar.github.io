@@ -10,7 +10,7 @@
 :root {
     --primary-: #F4F1E8;
     --primary-2-: #9B4819;
-    --light-text-: #7f56cc;
+    --light-text-: #f4f1e8;
     --secondary-: #54d2d2;
     --txt-gray-: #434242;
     --smooth-: #ffcb00;
@@ -58,13 +58,6 @@ nav ul li a:hover {
     color: var(--primary-2-);
 }
 
-main hr {
-    border: 0;
-    background: var(--light-text-);
-    height: 1.2px;
-    margin: 60px 84px;
-}
-
 .firstSection {
     display: grid;
     margin: 10rem 0;
@@ -74,11 +67,18 @@ main hr {
     align-items: center;
 }
 
+#header-img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .firstSection img {
     height: 100px;
     width: 100px;
     justify-content: center;
     align-items: center;
+    display: inherit;
 }
 
 .firstSection div span {
@@ -109,4 +109,52 @@ main hr {
     width: 60%;
     height: 60%;
     margin-left: 10rem;
+}
+
+.prfOfEdu p,
+h3 {
+    text-align: center;
+    font-family: 'Radley', serif;
+}
+
+.prfOfEdu hr {
+    border: 2px solid #BD8F53;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project hr {
+    border: 2px solid #BD8F53;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fourthSection p {
+    text-align: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.prjImg img {
+    height: 800%;
+    width: 80%;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Radley', serif;
+    font-size: 1rem;
+    background-color: var(--primary-2-);
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
