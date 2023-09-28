@@ -49,4 +49,60 @@
     body {
         width: fit-content;
     }
+    #h2-main {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 5rem;
+    }
+    .aboutContent {
+        flex-wrap: wrap;
+    }
+    .aboutContent p {
+        font-size: 2.5rem;
+    }
+    .aboutContent div img {
+        width: 50%;
+        height: 70%;
+    }
+    #h2-sub {
+        margin-top: 5rem;
+        font-size: 5rem;
+    }
+    #h2-sub> :first-child {
+        margin-top: 1rem;
+    }
+    .about-row {
+        display: inherit;
+    }
+    .prfOfEdu:first-child {
+        margin-top: -5rem;
+    }
+    .proj-row {
+        display: inherit;
+        margin-top: 5rem;
+    }
+    h3 {
+        margin-top: 4rem;
+        font-size: 3rem;
+    }
+    .prfOfEdu p {
+        font-size: 1.5rem;
+    }
+    .prjImg img {
+        width: 60%;
+        height: 60%;
+    }
+    .h3-small {
+        font-size: 2.5rem;
+    }
+    .fourthSection p {
+        font-size: 1.5rem;
+    }
+    .project {
+        margin-top: 9rem;
+    }
+    .fifthSection h1 {
+        white-space: nowrap;
+    }
 }
