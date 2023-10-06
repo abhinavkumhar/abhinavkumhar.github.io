@@ -1,4 +1,4 @@
 var typed = new Typed('#element', {
-    strings: ['I am Abhinav'],
+    strings: ['PRINT("HELLO WORLD!")>>:)', 'YOUTUBER', 'PROGRAMMER', 'GRAPHICS DESIGNER'],
     typeSpeed: 50,
 });
