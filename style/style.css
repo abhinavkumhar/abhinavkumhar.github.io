@@ -26,6 +26,12 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(-6px 4px 12px #696969);
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -52,7 +58,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #c37aec;
+    color: #4d0377;
+}
+
+.hamburger {
+    display: none;
 }
 
 #element {

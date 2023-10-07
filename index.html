@@ -32,21 +32,20 @@
 
 <body>
     <header>
-        <nav id="home">
-            <div class="right">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#footer">Contact Me</a></li>
-                </ul>
-            </div>
+        <nav>
+            <ul class="hidden">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#footer">Contact Me</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
         </nav>
     </header>
 
 
     <main>
-        <section class="firstSection">
+        <section class="firstSection" id="home">
             <div id="header-img">
                 <img src="./images/logo.png" alt="Logo Loading...">
             </div>
@@ -166,6 +165,7 @@
     <!-- TYPE JS -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="./script/type.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
