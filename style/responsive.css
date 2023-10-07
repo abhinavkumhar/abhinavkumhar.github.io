@@ -46,8 +46,10 @@
 }
 
 @media screen and (max-width: 900px) {
-    body {
-        width: fit-content;
+    body,
+    html {
+        /* width: fit-content; */
+        overflow-x: hidden;
     }
     #h2-main {
         justify-content: center;
@@ -59,7 +61,7 @@
         flex-wrap: wrap;
     }
     .aboutContent p {
-        font-size: 2.5rem;
+        font-size: var(--mediumText-);
     }
     .aboutContent div img {
         width: 50%;
@@ -104,10 +106,11 @@
         margin-top: 9rem;
     }
     .fifthSection h1 {
-        white-space: nowrap;
+        white-space: normal;
         justify-content: center;
         display: flex;
         align-items: center;
+        font-size: 2rem;
     }
     #header_h1 {
         font-size: 3.5rem;
@@ -136,5 +139,57 @@
     .fifthSection .social-footer .icons {
         width: auto;
         justify-content: space-evenly;
+    }
+    .fa-envelope {
+        padding-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .typeWriter {
+        font-size: 1rem;
+    }
+    .firstSection img {
+        margin-top: -3rem;
+    }
+    #header_h1 {
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #spanSmall {
+        font-size: 1rem;
+    }
+    #h2-main {
+        font-size: 2rem;
+        margin-top: -5rem;
+    }
+    .aboutContent p {
+        font-size: var(--smallText-);
+        margin-top: -4rem;
+    }
+    .aboutContent div img {
+        width: 50vh;
+        height: auto;
+        margin-left: 1rem;
+    }
+    #h2-sub {
+        font-size: var(--largeText-);
+    }
+    .about-h3 {
+        font-size: 2rem;
+    }
+    .fifthSection h1 {
+        white-space: normal;
+    }
+    .fifthSection {
+        padding: 3rem 2rem 2rem;
+    }
+    .fifthSection p {
+        font-size: var(--smallText-);
+    }
+    .thirdSection {
+        margin: 0 -3rem;
     }
 }

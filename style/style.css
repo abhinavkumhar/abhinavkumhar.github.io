@@ -8,9 +8,12 @@
 /* Colors */
 
 :root {
-    --primary-: #F4F1E8;
-    --primary-2-: #a02ee2;
-    --light-text-: #f4f1e8;
+    --primary-: #a02ee2;
+    --secondary-: #F4F1E8;
+    --territory-: #313131;
+    --largeText-: 3rem;
+    --mediumText-: 1.5rem;
+    --smallText-: 1rem;
 }
 
 html {
@@ -18,7 +21,7 @@ html {
 }
 
 body {
-    background-color: var(--primary-);
+    background-color: var(--secondary-);
     font-family: 'Mooli', sans-serif;
     overflow-x: hidden;
 }
@@ -28,7 +31,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: var(--primary-2-);
+    background-color: var(--primary-);
 }
 
 nav ul {
@@ -43,17 +46,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--secondary-);
     font-family: 'Mooli', sans-serif;
     font-size: 1.5rem;
 }
 
-nav ul li a:hover {
-    color: var(--light-text-);
-}
+
+/* nav ul li a:hover {
+    color: var(--primary-);
+} */
 
 #element {
-    color: var(--primary-2-);
+    color: var(--primary-);
 }
 
 .firstSection {
@@ -80,7 +84,7 @@ nav ul li a:hover {
 }
 
 .firstSection div span {
-    color: var(--primary-2-);
+    color: var(--primary-);
 }
 
 .secondSection div img {
@@ -148,7 +152,7 @@ h3 {
     border-radius: 10px;
     font-family: 'Mooli', sans-serif;
     font-size: 1rem;
-    background-color: var(--primary-2-);
+    background-color: var(--primary-);
     border: none;
     justify-content: center;
     align-items: center;
@@ -159,8 +163,8 @@ h3 {
 }
 
 .fifthSection {
-    background-color: var(--primary-2-);
-    color: var(--primary-);
+    background-color: var(--primary-);
+    color: var(--secondary-);
     padding: 3rem 5rem 2rem;
 }
 
@@ -196,4 +200,8 @@ h3 {
 
 .fifthSection .right {
     margin-top: -20px;
+}
+
+.fa-brands {
+    font-size: 2rem;
 }
