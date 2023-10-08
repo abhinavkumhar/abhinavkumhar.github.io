@@ -1,3 +1,2 @@
-font-family: 'Radley', serif;
 font-family: 'Mooli', sans-serif;
-font-family: 'Gabarito', cursive;
+font-family: 'Onest', sans-serif;
