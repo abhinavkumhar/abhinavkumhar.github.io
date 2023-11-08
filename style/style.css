@@ -8,7 +8,7 @@
 /* Colors */
 
 :root {
-    --primary-: #F18F01;
+    --primary-: #f56038;
     --secondary-: #F4F1E8;
     --territory-: #292626;
     --largeText-: 3rem;
@@ -70,7 +70,7 @@ nav ul li a:hover {
     color: var(--primary-);
 }
 
-.firstSection {
+.header {
     display: grid;
     margin: 10rem 0;
     font-size: 4rem;
@@ -85,7 +85,7 @@ nav ul li a:hover {
     display: flex;
 }
 
-.firstSection img {
+.header img {
     height: 100px;
     width: 100px;
     justify-content: center;
@@ -93,7 +93,7 @@ nav ul li a:hover {
     display: inherit;
 }
 
-.firstSection div span {
+.header div span {
     color: var(--primary-);
 }
 
@@ -101,7 +101,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.thirdSection {
+.aboutSection {
     margin-top: 7%;
 }
 
