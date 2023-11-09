@@ -1,20 +1,9 @@
+/* Basic Style Start */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-
-/* Colors */
-
-:root {
-    --primary-: #f56038;
-    --secondary-: #F4F1E8;
-    --territory-: #292626;
-    --largeText-: 3rem;
-    --mediumText-: 1.5rem;
-    --mediumText2-: 2rem;
-    --smallText-: 1rem;
 }
 
 html {
@@ -26,6 +15,28 @@ body {
     font-family: 'Mooli', sans-serif;
     overflow-x: hidden;
 }
+
+
+/* Basic Style End */
+
+
+/* Utility Style Start */
+
+:root {
+    --primary-: #f56038;
+    --secondary-: #F4F1E8;
+    --territory-: #292626;
+    --largeText-: 3rem;
+    --mediumText-: 1.5rem;
+    --mediumText2-: 2rem;
+    --smallText-: 1rem;
+}
+
+
+/* Utility Style End */
+
+
+/* Navigation Menu Start */
 
 header {
     position: sticky;
@@ -59,15 +70,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4d0377;
+    color: #fc3700;
 }
 
 .hamburger {
     display: none;
-}
-
-#element {
-    color: var(--primary-);
 }
 
 .header {
@@ -96,6 +103,12 @@ nav ul li a:hover {
 .header div span {
     color: var(--primary-);
 }
+
+
+/* Navigation Menu Start */
+
+
+/* About Me Start */
 
 .secondSection div img {
     width: 100%;
@@ -141,11 +154,15 @@ h3 {
     margin-bottom: 1rem;
 }
 
+
+/* About Me End */
+
 .fourthSection p {
     text-align: center;
 }
 
-.project {
+.project,
+.hobbies {
     text-align: center;
 }
 

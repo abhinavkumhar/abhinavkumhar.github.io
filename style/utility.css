@@ -3,21 +3,25 @@
     text-align: center;
 }
 
-#h2-main {
-    font-family: 'Mooli', sans-serif;
-    margin: 5rem 5rem;
+.primary-color {
     color: var(--primary-);
-    font-size: 3rem;
+}
+
+
+/* Aligin Items Center */
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#element {
+    color: var(--primary-);
+}
+
 #h2-sub {
     font-family: 'Mooli', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: var(--primary-);
     font-size: var(--largeText-);
 }
@@ -29,6 +33,10 @@
     grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 10rem;
+}
+
+.mg-8 {
+    margin-top: -9rem;
 }
 
 .proj-row {
@@ -59,8 +67,14 @@ h3 {
     font-size: 1.3rem;
 }
 
+
+/* Use as a Sub heading for Headings */
+
 .about-small {
     font-size: 1.2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 a {
