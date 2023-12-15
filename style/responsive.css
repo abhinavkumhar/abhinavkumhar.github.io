@@ -1,8 +1,13 @@
+/* =============================== LARGE SCREEN (1230px) =============================== */
+
 @media screen and (max-width: 1230px) {
     .firstSection {
         font-size: 3rem;
     }
 }
+
+
+/* =============================== LARGE SCREEN (1000px) =============================== */
 
 @media screen and (max-width: 1000px) {
     nav ul li a {
@@ -44,6 +49,9 @@
         margin-top: -10rem;
     }
 }
+
+
+/* =============================== MIDIUM SCREEN (900px) =============================== */
 
 @media screen and (max-width: 900px) {
     body,
@@ -143,7 +151,13 @@
     .fa-envelope {
         padding-right: 0.5rem;
     }
+    .mt-5 {
+        margin-top: -9rem;
+    }
 }
+
+
+/* =============================== SMALL SCREEN (600px) =============================== */
 
 @media screen and (max-width:600px) {
     .hamburger {
@@ -199,6 +213,9 @@
     }
 }
 
+
+/* =============================== SMALL SCREEN (420px) =============================== */
+
 @media screen and (max-width:420px) {
     .prjImg img {
         width: 100%;
@@ -212,6 +229,9 @@
         /* font-size: 18px; */
     }
 }
+
+
+/* =============================== SMALL SCREEN (360px) =============================== */
 
 @media screen and (max-width:360px) {
     #header_h1 {

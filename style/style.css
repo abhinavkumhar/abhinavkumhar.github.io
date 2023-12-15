@@ -1,4 +1,4 @@
-/* Basic Style Start */
+/* =============================== BASIC STYLE =============================== */
 
 * {
     padding: 0;
@@ -17,10 +17,7 @@ body {
 }
 
 
-/* Basic Style End */
-
-
-/* Utility Style Start */
+/* =============================== STYLE UTILITY =============================== */
 
 :root {
     --primary-: #f56038;
@@ -33,10 +30,7 @@ body {
 }
 
 
-/* Utility Style End */
-
-
-/* Navigation Menu Start */
+/* =============================== NAVIGATION MENU START =============================== */
 
 header {
     position: sticky;
@@ -105,10 +99,7 @@ nav ul li a:hover {
 }
 
 
-/* Navigation Menu Start */
-
-
-/* About Me Start */
+/* =============================== ABOUT SECTION START =============================== */
 
 .secondSection div img {
     width: 100%;
@@ -155,7 +146,7 @@ h3 {
 }
 
 
-/* About Me End */
+/* =============================== HOBBIES, PROJECTS SECTION =============================== */
 
 .fourthSection p {
     text-align: center;
@@ -188,6 +179,9 @@ h3 {
 .btn:hover {
     cursor: pointer;
 }
+
+
+/* =============================== FOOTER =============================== */
 
 .fifthSection {
     background-color: var(--primary-);

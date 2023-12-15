@@ -45,11 +45,16 @@
     grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 10rem;
+    grid-row-gap: 5rem;
 }
 
 h3 {
     font-size: 2.5rem;
     font-family: 'Caladea', serif;
+}
+
+.mt-5 {
+    margin-top: 5rem;
 }
 
 .h3-small {
