@@ -30,22 +30,26 @@
     <script src="https://kit.fontawesome.com/4dfe5fcdbd.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="home">
     <!-- =============================== NAVBAR =============================== -->
-    <header>
+    <header class="header-class active">
         <nav>
-            <ul class="hidden">
+            <h1 id="nav-logo">Mr.Abhinav</h1>
+            <ul class="nav-btns">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#footer">Contact Me</a></li>
             </ul>
-            <div class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
+            <div class="hamburger">
+                <i name="menu" class="fa-solid fa-bars menu-outline" style="color: #ffffff;"></i>
+                <i name="close" class="fa-solid fa-xmark menu-outline" style="color: #ffffff;"></i>
+            </div>
         </nav>
     </header>
     <!-- =============================== HEADER =============================== -->
     <main>
-        <section class="header" id="home">
+        <section class="header">
             <div id="header-img">
                 <img src="./images/logo.png" alt="Logo Loading...">
             </div>
@@ -72,8 +76,11 @@
                 <p class="about-small">Summary</p>
             </div>
             <div class="aboutContent">
-                <p><span class="primary-color">During the lockdown</span>, I discovered a new passion for coding and began learning it as a hobby. This journey into the world of programming opened up exciting opportunities for me to explore and create in
-                    the digital realm. I've since embraced coding as a creative outlet and a means to acquire valuable skills, making the most of a challenging situation by developing a new and fulfilling interest.</p>
+                <p><span class="primary-color">During the lockdown</span>, I discovered a new passion for coding and
+                    began learning it as a hobby. This journey into the world of programming opened up exciting
+                    opportunities for me to explore and create in
+                    the digital realm. I've since embraced coding as a creative outlet and a means to acquire valuable
+                    skills, making the most of a challenging situation by developing a new and fulfilling interest.</p>
                 <div><img src="./images/aboutImg.jpg" alt="About Img Loading..."></div>
             </div>
             <div class="profile">
@@ -93,7 +100,8 @@
                     <p class="about-large">TIGPS, Siliguri</p>
                     <hr>
                     <p class="about-mid"><b>Coding & Graphics Desiging</b></p>
-                    <p class="about-small">Started learning Coding & Graphics Desiging as a hobbie in lockdown <br>(2021 - 2023)</p>
+                    <p class="about-small">Started learning Coding & Graphics Desiging as a hobbie in lockdown <br>(2021
+                        - 2023)</p>
                 </div>
                 <div class="prfOfEdu">
                     <h3 class="about-h3">Current</h3>
@@ -170,7 +178,8 @@
 
         <!-- =============================== FOOTER =============================== -->
         <section class="fifthSection" id="footer">
-            <h1>Bringing innovation and expertise to your team. Let's create exceptional digital experiences together.</h1>
+            <h1>Bringing innovation and expertise to your team. Let's create exceptional digital experiences together.
+            </h1>
 
             <div class="social-footer">
                 <p>TO SEE MORE OF MY WORK, VISIT MY SOCIAL:</p>
@@ -193,7 +202,8 @@
                 </div>
             </div>
             <div class="right">
-                <p class="f1"><i class="fa-regular fa-envelope" style="color: #ffffff; font-size: 2rem;"></i> Email: abhinavkumhar14@gmail.com</p>
+                <p class="f1"><i class="fa-regular fa-envelope" style="color: #ffffff; font-size: 2rem;"></i> Email:
+                    abhinavkumhar14@gmail.com</p>
             </div>
             <p id="copyright">&#169; Abhinav Kumhar</p>
 

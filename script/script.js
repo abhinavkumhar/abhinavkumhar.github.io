@@ -1,9 +1,7 @@
-    // JavaScript to toggle the responsive menu
-    function toggleMenu() {
-        var navbar = document.getElementById("myNavbar");
-        if (navbar.className === "navbar") {
-            navbar.className += " responsive";
-        } else {
-            navbar.className = "navbar";
-        }
-    }
+let nav_button = document.querySelector('.hamburger');
+let nav_header = document.querySelector('.header-class');
+const toggleNavbar = ()=>{
+    // alert("hi doraemon")
+    nav_header.classList.toggle('active');
+}
+nav_button.addEventListener('click', ()=> toggleNavbar());

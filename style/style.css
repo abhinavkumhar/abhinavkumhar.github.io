@@ -35,7 +35,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    filter: drop-shadow(-6px 4px 12px #696969);
+    /* filter: drop-shadow(-6px 4px 12px #696969); */
 }
 
 nav {
@@ -44,6 +44,11 @@ nav {
     align-items: center;
     height: 80px;
     background-color: var(--primary-);
+    position: relative;
+}
+
+#nav-logo {
+    color: var(--secondary-);
 }
 
 nav ul {
@@ -69,6 +74,12 @@ nav ul li a:hover {
 
 .hamburger {
     display: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 999;
+}
+.menu-outline[name="close"]{
+    display: none; /* Use for hiding the close hamburger */
 }
 
 .header {

@@ -54,11 +54,6 @@
 /* =============================== MIDIUM SCREEN (900px) =============================== */
 
 @media screen and (max-width: 900px) {
-    body,
-    html {
-        /* width: fit-content; */
-        overflow-x: hidden;
-    }
     #h2-main {
         justify-content: center;
         align-items: center;
@@ -164,6 +159,41 @@
         display: block;
         font-size: 1.5rem;
         float: right;
+        /* padding: 4px; */
+        /* border: 2px solid var(--secondary-); */
+    }
+    .nav-btns {
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background: var(--primary-);
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        /* For transition */
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+    }
+    .active nav .nav-btns{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .active nav .hamburger i[name="menu"]{
+        display: none;
+    }
+    .active nav .hamburger i[name="close"]{
+        display: block;
+    }
+    nav ul li {
+        margin: 1rem;
     }
     .typeWriter {
         font-size: 1rem;
