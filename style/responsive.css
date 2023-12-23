@@ -178,7 +178,7 @@
         pointer-events: none;
         /* For transition */
         transform: translateX(100%);
-        transition: all 0.5s linear;
+        transition: all 0.3s linear;
     }
     .active nav .nav-btns{
         transform: translateX(0);
