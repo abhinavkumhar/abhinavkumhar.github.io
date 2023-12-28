@@ -79,8 +79,10 @@ nav ul li a:hover {
     cursor: pointer;
     z-index: 999;
 }
-.menu-outline[name="close"]{
-    display: none; /* Use for hiding the close hamburger */
+
+.menu-outline[name="close"] {
+    display: none;
+    /* Use for hiding the close hamburger */
 }
 
 .header {
@@ -131,12 +133,13 @@ nav ul li a:hover {
 .aboutContent p {
     font-size: var(--mediumText-);
     padding-bottom: 12rem;
+    /* margin-right: 6rem; */
 }
 
-.aboutContent div img {
-    width: 60%;
-    height: 60%;
-    margin-left: 10rem;
+.aboutSectionImg img {
+    height: 21rem;
+    position: relative;
+    top: -5rem;
 }
 
 .prfOfEdu p,

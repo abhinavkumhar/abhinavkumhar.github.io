@@ -45,7 +45,7 @@
     a {
         font-size: 1rem;
     }
-    .aboutContent div img {
+    .aboutSectionImg img {
         margin-top: -10rem;
     }
 }
@@ -66,7 +66,7 @@
     .aboutContent p {
         font-size: var(--mediumText-);
     }
-    .aboutContent div img {
+    .aboutSectionImg img {
         width: 50%;
         height: 70%;
     }
@@ -180,16 +180,16 @@
         transform: translateX(100%);
         transition: all 0.3s linear;
     }
-    .active nav .nav-btns{
+    .active nav .nav-btns {
         transform: translateX(0);
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
     }
-    .active nav .hamburger i[name="menu"]{
+    .active nav .hamburger i[name="menu"] {
         display: none;
     }
-    .active nav .hamburger i[name="close"]{
+    .active nav .hamburger i[name="close"] {
         display: block;
     }
     nav ul li {
@@ -218,10 +218,11 @@
         font-size: var(--smallText-);
         margin-top: -4rem;
     }
-    .aboutContent div img {
+    .aboutSectionImg img {
         width: 50vh;
         height: auto;
         margin-left: 1rem;
+        top: 1rem;
     }
     #h2-sub {
         font-size: var(--largeText-);
