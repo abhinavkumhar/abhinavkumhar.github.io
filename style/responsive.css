@@ -202,13 +202,16 @@
         margin-top: -3rem;
     }
     #header_h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    #header_h1 span {
+        margin-left: 4px;
+    }
     #spanSmall {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     #h2-main {
         font-size: 2rem;
