@@ -6,6 +6,7 @@ const toggleNavbar = ()=>{
 }
 const toggleNavList = ()=>{
     nav_header.classList.toggle('active');
+    window.addEventListener('scroll', preventDefault);
 }
 nav_button.addEventListener('click', ()=> toggleNavbar());
 nav_list_button.addEventListener('click', ()=> toggleNavList());
