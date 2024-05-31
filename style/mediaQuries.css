@@ -90,14 +90,28 @@
         font-size: var(--smallText-);
         margin: 0 2rem;
     }
-    
-    .section-highlight {
-        /* margin-top: -8rem; */
-    }
 
     .aboutSectionImg img {
         width: 15vh;
         height: auto;
+    }
+
+    .about-row {
+        grid-template-columns: 1fr;
+    }
+
+    .prfOfEdu:nth-child(2),
+    .prfOfEdu:nth-child(3) {
+        margin-top: 5rem;
+    }
+
+    .hobbies-row {
+        grid-template-columns: 1fr;
+    }
+
+    .prjImg img {
+        height: 30%;
+        width: 30%;
     }
 
     #h2-sub {
@@ -108,16 +122,16 @@
         font-size: 2rem;
     }
 
-    .fifthSection h1 {
+    .footerSection h1 {
         white-space: normal;
         font-size: 2rem;
     }
 
-    .fifthSection {
+    .footerSection {
         padding: 3rem 2rem 2rem;
     }
 
-    .fifthSection p {
+    .footerSection p {
         font-size: var(--smallText-);
     }
 
