@@ -73,10 +73,6 @@
         align-items: center;
     }
 
-    #header_h1 span {
-        margin-left: 4px;
-    }
-
     #spanSmall {
         font-size: 0.7rem;
     }
@@ -92,10 +88,15 @@
 
     .aboutContent p {
         font-size: var(--smallText-);
+        margin: 0 2rem;
+    }
+    
+    .section-highlight {
+        /* margin-top: -8rem; */
     }
 
     .aboutSectionImg img {
-        width: 20vh;
+        width: 15vh;
         height: auto;
     }
 
@@ -121,6 +122,6 @@
     }
 
     .aboutSection {
-        margin: 0 -3rem;
+        margin: 0 2rem;
     }
 }

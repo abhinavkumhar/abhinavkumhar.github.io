@@ -14,10 +14,21 @@ body {
     font-family: 'Mooli', sans-serif;
 }
 
-#element {
+#element,
+.typed-cursor {
     color: var(--secondary-);
     font-size: var(--mediumText-);
     font-weight: 800;
+}
+
+.container {
+    margin: 0 10rem;
+}
+
+.aboutSection,
+.profile,
+.about-row {
+    margin-top: 3rem;
 }
 
 /* =============================== STYLE UTILITY =============================== */
@@ -117,23 +128,18 @@ nav ul li a {
     width: 100px;
 }
 
-.header div span {
-    color: var(--primary-);
-}
-
 /* =============================== ABOUT SECTION START =============================== */
 
-.aboutSection {
-    margin-top: 7%;
+.aboutContent {
+    margin: 1rem 0 10rem;
+    text-align: center;
+    font-size: var(--mediumText-);
+    text-wrap: balance;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-.aboutContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 10rem -10rem;
-    font-size: var(--mediumText-);
-    padding-bottom: 12rem;
+.aboutContent p {
+    margin: 0 10rem;
 }
 
 .aboutSectionImg img {
@@ -142,7 +148,8 @@ nav ul li a {
 
 .prfOfEdu p,
 .prfOfEdu h3,
-.fourthSection p {
+.hobbiesSection p,
+.projectsSection p {
     text-align: center;
     font-family: 'Mooli', sans-serif;
 }
