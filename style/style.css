@@ -6,38 +6,32 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     scroll-behavior: smooth;
     overflow-x: hidden;
-}
-
-body {
     background-color: var(--secondary-);
     font-family: 'Mooli', sans-serif;
-    overflow-x: hidden;
 }
 
+#element {
+    color: var(--secondary-);
+    font-size: var(--mediumText-);
+    font-weight: 800;
+}
 
 /* =============================== STYLE UTILITY =============================== */
 
 :root {
-    --primary-: #f56038;
-    --secondary-: #F4F1E8;
-    --territory-: #292626;
+    --primary-: #0c253f;
+    --secondary-: #e5e5e6;
     --largeText-: 3rem;
     --mediumText-: 1.5rem;
     --mediumText2-: 2rem;
     --smallText-: 1rem;
 }
 
-
 /* =============================== NAVIGATION MENU START =============================== */
-
-header {
-    position: sticky;
-    top: 0;
-    /* filter: drop-shadow(-6px 4px 12px #696969); */
-}
 
 nav {
     display: flex;
@@ -51,8 +45,10 @@ nav {
     z-index: 99;
 }
 
-#nav-logo {
+#nav-logo,
+nav ul li a {
     color: var(--secondary-);
+    font-family: 'Mooli', sans-serif;
 }
 
 nav ul {
@@ -67,13 +63,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--secondary-);
-    font-family: 'Mooli', sans-serif;
     font-size: var(--mediumText-);
-}
-
-nav ul li a:hover {
-    color: var(--territory-);
 }
 
 .hamburger {
@@ -85,42 +75,53 @@ nav ul li a:hover {
 
 .menu-outline[name="close"] {
     display: none;
-    /* Use for hiding the close hamburger */
 }
 
+/* =============================== HEADER =============================== */
+
 .header {
-    display: grid;
-    margin: 10rem 0;
-    font-size: 4rem;
-    font-family: 'Mooli', sans-serif;
+    height: 40rem;
+    display: flex;
     justify-content: center;
     align-items: center;
+    font-size: var(--largeText-);
+    color: var(--secondary-);
+    background: url("/images/header-bg-clip.jpg") center bottom/cover;
+    position: relative;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
 }
 
 #header-img {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
 }
 
 .header img {
     height: 100px;
     width: 100px;
-    justify-content: center;
-    align-items: center;
-    display: inherit;
 }
 
 .header div span {
     color: var(--primary-);
 }
 
-
 /* =============================== ABOUT SECTION START =============================== */
-
-.secondSection div img {
-    width: 100%;
-}
 
 .aboutSection {
     margin-top: 7%;
@@ -130,55 +131,44 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 5rem;
-}
-
-.aboutContent p {
+    margin: 2rem 10rem -10rem;
     font-size: var(--mediumText-);
     padding-bottom: 12rem;
-    /* margin-right: 6rem; */
 }
 
 .aboutSectionImg img {
-    height: 21rem;
-    position: relative;
-    top: -5rem;
-    z-index: -1;
+    height: 10rem;
 }
 
 .prfOfEdu p,
-h3 {
+.prfOfEdu h3,
+.fourthSection p {
     text-align: center;
     font-family: 'Mooli', sans-serif;
 }
 
-.prfOfEdu hr {
-    border: 2px solid #BD8F53;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
+.prfOfEdu hr,
 .project hr {
-    border: 2px solid #BD8F53;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    border: 2px solid var(--primary-);
+    margin: 1rem 0;
 }
-
 
 /* =============================== HOBBIES, PROJECTS SECTION =============================== */
 
-.fourthSection p {
-    text-align: center;
-}
-
 .project,
-.hobbies {
+.hobbies,
+.prjImg {
     text-align: center;
 }
 
 .prjImg img {
-    height: 800%;
+    height: 80%;
     width: 80%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
@@ -191,14 +181,11 @@ h3 {
     font-size: var(--smallText-);
     background-color: var(--primary-);
     border: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.btn:hover {
     cursor: pointer;
 }
-
 
 /* =============================== FOOTER =============================== */
 
@@ -206,6 +193,7 @@ h3 {
     background-color: var(--primary-);
     color: var(--secondary-);
     padding: 3rem 5rem 2rem;
+    text-align: center;
 }
 
 .fifthSection h1 {
@@ -218,19 +206,13 @@ h3 {
     font-size: 1.2rem;
 }
 
-.fifthSection .social-footer .icons {
-    width: 300px;
+.social-footer .icons {
+    margin-top: 1rem;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-}
-
-.fifthSection .social-footer:hover {
+    justify-content: center;
+    gap: 20px;
     cursor: pointer;
-}
-
-.fifthSection .right {
-    float: right;
-    font-size: 1.3rem;
 }
 
 .fifthSection p {
@@ -238,10 +220,10 @@ h3 {
     font-size: 1.2rem;
 }
 
-.fifthSection .right {
-    margin-top: -20px;
-}
-
 .fa-brands {
     font-size: var(--mediumText2-);
+}
+
+.fa-envelope {
+    display: grid;
 }

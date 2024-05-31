@@ -35,7 +35,7 @@
     <!-- =============================== STYLE =============================== -->
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/utility.css">
-    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/mediaQuries.css">
 
     <!-- =============================== FONTAWESOME =============================== -->
     <script src="https://kit.fontawesome.com/4dfe5fcdbd.js" crossorigin="anonymous"></script>
@@ -43,185 +43,190 @@
 
 <body id="home">
     <!-- =============================== NAVBAR =============================== -->
-    <header class="header-class">
-        <nav>
-            <h1 id="nav-logo">Mr.Abhinav</h1>
-            <ul class="nav-btns">
-                <li class="click"><a href="#home">Home</a></li>
-                <li class="click"><a href="#about">About</a></li>
-                <li class="click"><a href="#projects">Projects</a></li>
-                <li class="click"><a href="#footer">Contact Me</a></li>
-            </ul>
-            <div class="hamburger">
-                <i name="menu" class="fa-solid fa-bars menu-outline" style="color: #ffffff;"></i>
-                <i name="close" class="fa-solid fa-xmark menu-outline" style="color: #ffffff;"></i>
-            </div>
-        </nav>
-    </header>
+    <nav>
+        <h1 id="nav-logo"><a href="/">Mr.Abhinav</a></h1>
+        <ul class="nav-btns">
+            <li class="click"><a href="#home">Home</a></li>
+            <li class="click"><a href="#about">About</a></li>
+            <li class="click"><a href="#projects">Projects</a></li>
+            <li class="click"><a href="#footer">Contact Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <i name="menu" class="fa-solid fa-bars menu-outline" style="color: #ffffff;"></i>
+            <i name="close" class="fa-solid fa-xmark menu-outline" style="color: #ffffff;"></i>
+        </div>
+    </nav>
     <!-- =============================== HEADER =============================== -->
-    <main>
-        <section class="header">
+    <header class="header">
+        <section class="header-content">
             <div id="header-img">
                 <img src="./images/logo.png" alt="Logo Loading...">
             </div>
-            <div class="medContent">
+            <div class="center">
                 <span id="element" class="typeWriter"></span>
             </div>
-            <div class="header-text">
-                <h1 id="header_h1"><i>Hello, </i><span>I am Abhinav</span></h1>
+            <div class="header-text center">
+                <h1 id="header_h1">I'm Abhinav.</h1>
             </div>
-            <span id="spanSmall">Capturing Code and Pixel Perfection ✨</span>
+            <div id="spanSmall">Capturing Code and Pixel Perfection ✨</div>
         </section>
+    </header>
 
-        <!-- <section class="secondSection">
-            <div class="galleryImg">
-                <img src="./images/gallery.png" alt="Gallery Loading...">
-            </div>
-        </section> -->
-
-        <!-- =============================== ABOUT =============================== -->
-        <section class="aboutSection">
-            <div id="about">
-                <h2 id="h2-sub" class="center">About Me</h2>
-                <br>
-                <p class="about-small">Summary</p>
-            </div>
-            <div class="aboutContent">
-                <p><span class="primary-color">During the lockdown</span>, I discovered a new passion for coding and began learning it as a hobby. This journey into the world of programming opened up exciting opportunities for me to explore and create in
-                    the digital realm. I've since embraced coding as a creative outlet and a means to acquire valuable skills, making the most of a challenging situation by developing a new and fulfilling interest.</p>
-                <div class="aboutSectionImg">
-                    <img src="./images/aboutImg.jpg" alt="About Img Loading...">
-                </div>
-            </div>
-            <div class="profile">
-                <p class="about-mid center"><b>Profile</b></p>
-            </div>
-            <h2 id="h2-sub" class="m-10 center">Education</h2>
-            <div class="about-row">
-                <div class="prfOfEdu">
-                    <h3 class="about-h3">School</h3>
-                    <p class="about-large">TIGPS, Siliguri</p>
-                    <hr>
-                    <p class="about-mid"><b>Studying</b></p>
-                    <p class="about-small">Education from TIGPS, Siliguri CBSE Board (2014 - 2023)</p>
-                </div>
-                <div class="prfOfEdu">
-                    <h3 class="about-h3">Lockdown</h3>
-                    <p class="about-large">TIGPS, Siliguri</p>
-                    <hr>
-                    <p class="about-mid"><b>Coding & Graphics Desiging</b></p>
-                    <p class="about-small">Started learning Coding & Graphics Desiging as a hobbie in lockdown <br>(2019 - 2024)</p>
-                </div>
-                <div class="prfOfEdu">
-                    <h3 class="about-h3">Current</h3>
-                    <p class="about-large">TIGPS, Siliguri</p>
-                    <hr>
-                    <p class="about-mid"><b>Studying at Class 9</b></p>
-                    <p class="about-small">(2023 - 2024)</p>
-                </div>
-            </div>
-        </section>
-        <!-- =============================== HOBBIES =============================== -->
-        <section class="fourthSection">
-            <h2 id="h2-sub" class="center">Hobbies</h2>
+    <!-- =============================== ABOUT =============================== -->
+    <section class="aboutSection" id="about">
+        <div>
+            <h2 class="center section-heading about-heading">About Me</h2>
             <br>
-            <p class="about-small">I like many works to do, but some of my favorites are</p>
-            <div class="proj-row">
-                <div class="hobbies">
-                    <div class="prjImg"><img src="/images/playing.png" alt=""></div>
-                    <h3 class="h3-small">Playing</h3>
-                </div>
-                <div class="hobbies">
-                    <div class="prjImg"><img src="/images/graphics designing.png" alt=""></div>
-                    <h3 class="h3-small">Graphics Desiging</h3>
-                </div>
-                <div class="hobbies">
-                    <div class="prjImg"><img src="/images/travelling.png" alt=""></div>
-                    <h3 class="h3-small">Travelling</h3>
-                </div>
-                <div class="hobbies">
-                    <div class="prjImg"><img src="/images/adventure sports.png" alt=""></div>
-                    <h3 class="h3-small">Adventure Sports</h3>
-                </div>
-                <div class="hobbies">
-                    <div class="prjImg"><img src="/images/learning.png" alt=""></div>
-                    <h3 class="h3-small">Learning</h3>
-                </div>
-                <div class="hobbies">
-                    <div class="prjImg"><img src="/images/editior.png" alt=""></div>
-                    <h3 class="h3-small">Editior</h3>
-                </div>
+            <p class="section-highlight center"><b>Summary</b></p>
+        </div>
+        <br>
+        <div class="aboutSectionImg center">
+            <img src="./images/aboutImg.jpg" alt="About Img Loading...">
+        </div>
+        <div class="aboutContent">
+            <p><span class="primary-color">During the lockdown</span>, I discovered a new passion for coding and began
+                learning it as a hobby. This journey into the world of programming opened up exciting opportunities for
+                me to explore and create in
+                the digital realm. I've since embraced coding as a creative outlet and a means to acquire valuable
+                skills, making the most of a challenging situation by developing a new and fulfilling interest.</p>
+        </div>
+        <div class="profile">
+            <p class="section-highlight center"><b>Profile</b></p>
+        </div>
+        <h2 class="m-10 center section-heading">Education</h2>
+        <div class="about-row">
+            <div class="prfOfEdu">
+                <h3 class="about-h3">School</h3>
+                <p class="about-large">TIGPS, Siliguri</p>
+                <hr>
+                <p class="section-highlight"><b>Studying</b></p>
+                <p class="about-small">Education from TIGPS, Siliguri CBSE Board (2014 - 2023)</p>
             </div>
-        </section>
-        <!-- =============================== PROJECTS =============================== -->
-        <section class="fourthSection" id="projects">
-            <h2 id="h2-sub" class="center">Projects</h2>
-            <br>
-            <p class="about-small">Curently this projects are not hosted online</p>
-
-            <div class="proj-row mt-5">
-                <div class="project">
-                    <div class="prjImg mg-8"><img src="/images/image_1.png" alt=""></div>
-                    <h3 class="h3-small">Digital Clock</h3>
-                    <hr>
-                    <p class="prjDesc">Digital Clock</p>
-                    <button class="btn"><a href="https://abhinavkumhar.github.io/digitalclock.github.io/" target="_blank">View More</a></button>
-                </div>
-                <div class="project">
-                    <div class="prjImg mg-8"><img src="/images/image_2.png" alt=""></div>
-                    <h3 class="h3-small">Tip Calculator</h3>
-                    <hr>
-                    <p class="prjDesc">Tip Calculator</p>
-                    <button class="btn"><a href="https://abhinavkumhar.github.io/tipcalculator.github.io/" target="_blank">View More</a></button>
-                </div>
-                <div class="project">
-                    <div class="prjImg mg-8"><img src="/images/image_3.png" alt=""></div>
-                    <h3 class="h3-small">Magic Notes</h3>
-                    <hr>
-                    <p class="prjDesc">Magic Notes</p>
-                    <button class="btn"><a href="https://abhinavkumhar.github.io/textconverter/" target="_blank">View More</a></button>
-                </div>
+            <div class="prfOfEdu">
+                <h3 class="about-h3">Lockdown</h3>
+                <p class="about-large">TIGPS, Siliguri</p>
+                <hr>
+                <p class="section-highlight"><b>Coding & Graphics Desiging</b></p>
+                <p class="about-small">Started learning Coding & Graphics Desiging as a hobbie in lockdown <br>(2019 -
+                    2024)</p>
             </div>
-
-        </section>
-
-        <!-- =============================== FOOTER =============================== -->
-        <section class="fifthSection" id="footer">
-            <h1>Bringing innovation and expertise to your team. Let's create exceptional digital experiences together.
-            </h1>
-
-            <div class="social-footer">
-                <p>TO SEE MORE OF MY WORK, VISIT MY SOCIAL:</p>
-                <div class="icons">
-                    <a href="https://www.instagram.com/abhinav.kumhar/" target="_blank">
-                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                    </a>
-                    <a href="https://twitter.com/abhinavkumhar_" target="_blank">
-                        <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
-                    </a>
-                    <a href="https://www.threads.net/abhinav.kumhar/" target="_blank">
-                        <i class="fa-brands fa-threads" style="color: #ffffff;"></i>
-                    </a>
-                    <a href="https://www.youtube.com/@abhinavkumhar/" target="_blank">
-                        <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
-                    </a>
-                    <a href="https://www.github.com/abhinavkumhar/" target="_blank">
-                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/abhinavkumhar/" target="_blank">
-                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-                    </a>
+            <div class="prfOfEdu">
+                <h3 class="about-h3">Current</h3>
+                <p class="about-large">TIGPS, Siliguri</p>
+                <hr>
+                <p class="section-highlight"><b>Studying at Class 10</b></p>
+                <p class="about-small">(2024 - 2025)</p>
+            </div>
+        </div>
+    </section>
+    <!-- =============================== HOBBIES =============================== -->
+    <section class="fourthSection">
+        <h2 class="center section-heading">Hobbies</h2>
+        <br>
+        <p class="section-highlight center"><b>I like many works to do, but some of my favorites are</b></p>
+        <div class="proj-row">
+            <div class="hobbies">
+                <div class="prjImg"><img src="/images/playing.png" alt=""></div>
+                <h3 class="h3-small">Playing</h3>
+            </div>
+            <div class="hobbies">
+                <div class="prjImg"><img src="/images/graphics designing.png" alt=""></div>
+                <h3 class="h3-small">Graphics Desiging</h3>
+            </div>
+            <div class="hobbies">
+                <div class="prjImg"><img src="/images/travelling.png" alt=""></div>
+                <h3 class="h3-small">Travelling</h3>
+            </div>
+            <div class="hobbies">
+                <div class="prjImg"><img src="/images/adventure sports.png" alt=""></div>
+                <h3 class="h3-small">Adventure Sports</h3>
+            </div>
+            <div class="hobbies">
+                <div class="prjImg"><img src="/images/learning.png" alt=""></div>
+                <h3 class="h3-small">Learning</h3>
+            </div>
+            <div class="hobbies">
+                <div class="prjImg"><img src="/images/editior.png" alt=""></div>
+                <h3 class="h3-small">Editior</h3>
+            </div>
+        </div>
+    </section>
+    <!-- =============================== PROJECTS =============================== -->
+    <section class="fourthSection" id="projects">
+        <h2 class="center section-heading">Projects</h2>
+        <br>
+        <div class="proj-row mt-5">
+            <div class="project">
+                <div class="prjImg mg-8"><img src="/images/image_1.png" alt=""></div>
+                <h3 class="h3-small">Digital Clock</h3>
+                <hr>
+                <p class="prjDesc">Digital Clock</p>
+                <div class="btn-container">
+                    <button class="btn"><a href="https://abhinavkumhar.github.io/digitalclock/" target="_blank">View
+                            More</a></button>
                 </div>
-            </div>
-            <div class="right">
-                <p class="f1"><i class="fa-regular fa-envelope" style="color: #ffffff; font-size: 2rem;"></i> Email: (....)
-                </p>
-            </div>
-            <p id="copyright">&#169; Abhinav Kumhar</p>
-        </section>
 
+            </div>
+            <div class="project">
+                <div class="prjImg mg-8"><img src="/images/image_2.png" alt=""></div>
+                <h3 class="h3-small">Tip Calculator</h3>
+                <hr>
+                <p class="prjDesc">Tip Calculator</p>
+                <div class="btn-container">
+                    <button class="btn"><a href="https://abhinavkumhar.github.io/tipcalculator" target="_blank">View
+                            More</a></button>
+                </div>
 
-    </main>
+            </div>
+            <div class="project">
+                <div class="prjImg mg-8"><img src="/images/image_3.png" alt=""></div>
+                <h3 class="h3-small">Magic Notes</h3>
+                <hr>
+                <p class="prjDesc">Magic Notes</p>
+                <div class="btn-container"> <button class="btn"><a href="https://abhinavkumhar.github.io/textconverter/"
+                            target="_blank">View
+                            More</a></button></div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- =============================== FOOTER =============================== -->
+    <section class="fifthSection" id="footer">
+        <h1>Bringing innovation and expertise to your team. Let's create exceptional digital experiences together.
+        </h1>
+
+        <div class="social-footer">
+            <p>TO SEE MORE OF MY WORK, VISIT MY SOCIAL:</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/abhinav.kumhar/" target="_blank">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                </a>
+                <a href="https://twitter.com/abhinavkumhar_" target="_blank">
+                    <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+                </a>
+                <a href="https://www.threads.net/abhinav.kumhar/" target="_blank">
+                    <i class="fa-brands fa-threads" style="color: #ffffff;"></i>
+                </a>
+                <a href="https://www.youtube.com/@abhinavkumhar/" target="_blank">
+                    <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                </a>
+                <a href="https://www.github.com/abhinavkumhar/" target="_blank">
+                    <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abhinavkumhar/" target="_blank">
+                    <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                </a>
+            </div>
+            <div class="footer-sign">
+                <p><i class="fa-regular fa-envelope" style="color: #ffffff; font-size: 2rem;"></i> Email:
+                    abhinavkumhar14@gmail.com</p>
+                <p id="copyright">&#169; Abhinav Kumhar</p>
+            </div>
+        </div>
+
+    </section>
 
     <!-- =============================== TYPE JS =============================== -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>

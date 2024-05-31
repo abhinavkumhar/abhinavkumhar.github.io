@@ -16,16 +16,6 @@
     align-items: center;
 }
 
-#element {
-    color: var(--primary-);
-}
-
-#h2-sub {
-    font-family: 'Mooli', sans-serif;
-    color: var(--primary-);
-    font-size: var(--largeText-);
-}
-
 .about-row {
     /* margin-top: 5rem; */
     padding: 5rem;
@@ -68,11 +58,6 @@ h3 {
     font-size: var(--mediumText2-);
 }
 
-.about-mid {
-    font-size: 1.3rem;
-}
-
-
 /* Use as a Sub heading for Headings */
 
 .about-small {
@@ -87,21 +72,9 @@ a {
     color: var(--secondary-);
 }
 
-.medContent {
-    font-size: var(--mediumText2-);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 900;
-}
-
 .about-h3 {
     font-family: 'Onest', sans-serif;
     color: var(--territory-);
-}
-
-.f1 {
-    font-size: 1rem;
 }
 
 .head-h2 {
@@ -109,4 +82,25 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: -4rem;
+}
+
+/* New Code for utility */
+.section-heading {
+    color: var(--primary-);
+    font-size: var(--largeText-);
+}
+
+.section-highlight {
+    font-size: 1.3rem;
+}
+
+
+/* New Code for utility responsive */
+@media screen and (max-width: 768px) {
+    .section-heading {
+        font-size: 2.5rem;
+    }
+    .section-highlight {
+        font-size: 1rem;
+    }
 }
