@@ -1,5 +1,5 @@
 var typed = new Typed('#element', {
-    strings: ['PRINT("HELLO WORLD!")>>:)', 'YOUTUBER', 'PROGRAMMER', 'GRAPHICS DESIGNER'],
+    strings: ['PRINT("HELLO WORLD!")>>:)', 'GRAPHICS DESIGNER', 'PROGRAMMER',],
     typeSpeed: 50,
     loop: true
 });

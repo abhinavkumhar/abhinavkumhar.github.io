@@ -28,6 +28,7 @@ body {
 .aboutSection,
 .hobbiesSection,
 .about-row,
+.projectsSection,
 .footerSection {
     margin-top: 3rem;
 }
@@ -179,6 +180,9 @@ nav ul li a {
     height: 50%;
     width: 50%;
 }
+
+/* =============================== PROJECT =============================== */
+
 
 /* =============================== FOOTER =============================== */
 
