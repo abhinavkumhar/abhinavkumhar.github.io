@@ -183,6 +183,24 @@ nav ul li a {
 
 /* =============================== PROJECT =============================== */
 
+.view-prj-btn{
+    margin-top: 1.5rem;
+}
+.view-projects {
+    padding: 10px 20px;
+    background-color: rgba(2, 2, 2, 0.815);
+    color: #ffffff;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.view-projects:hover {
+    background-color: rgba(92, 92, 92, 0.8);
+    cursor: pointer;
+}
 
 /* =============================== FOOTER =============================== */
 

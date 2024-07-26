@@ -98,6 +98,7 @@
 
     .about-row {
         grid-template-columns: 1fr;
+        margin: auto;
     }
 
     .prfOfEdu:nth-child(2),
